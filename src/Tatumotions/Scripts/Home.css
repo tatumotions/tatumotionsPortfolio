@@ -22,10 +22,12 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-color: #ffffff;
 }
 .TheLogo{
     width: 25px;
     height: 25px;
+    float: inline-start;
 }
 nav ul li{
     display: inline-block;
@@ -52,13 +54,15 @@ nav ul li a::after{
 nav ul li a:hover::after {
     width: 100%;
 }
+.row{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
 .header-text{
-    display: block;
-    align-items: flex-end;
-    margin-top: 20%;
-    font-size: 20px;
-    position: absolute;
-    right: 5%;
+    flex-basis:48%;
+
 }
 .header-text h1{
     font-size: 93px;
@@ -76,12 +80,8 @@ nav ul li a:hover::after {
 }
 
 .header-img{
-    display: block;
-    align-items: flex-start;
-    position: absolute;
-    left: 5%;
+    flex-basis: 45%;
 }
-.TheBgImg {
-    max-width: 1080px;
-    max-height: 600px;
+.header-img img{
+    width: 100%;
 }
