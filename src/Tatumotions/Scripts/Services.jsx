@@ -3,9 +3,9 @@ import "./Services.css";
 function Services(){
     return(
         <div id="services" name="services">
-            <div class="container">
-                <h1 class="sub-tittle">Services</h1>
-                <div class="services-list">
+            <div className="container">
+                <h1 className="sub-tittle">Services</h1>
+                <div className="services-list">
                     <div>
                         <h2>Animation</h2>
                         <p>Our services offer innovative 2D and 3D visualizations, specializing in character animation, 

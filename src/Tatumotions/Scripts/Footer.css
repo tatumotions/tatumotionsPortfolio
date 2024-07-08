@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Century Gothic', sans-serif;
+    box-sizing: border-box;
+}
+#Footer{
+    padding: 10px 10px;
+}
+.container{
+    padding: 5px 5%;
+}
+.copyright{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    background: #ffffff;
+    color: #8e191c;
+    font-weight: 200;
+}
+.copyright p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #8e191c;
+}

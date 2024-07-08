@@ -4,7 +4,7 @@
     font-family: 'Century Gothic', sans-serif;
     box-sizing: border-box;
 }
-#services{
+#Portfolio{
     padding: 50px 50px;
 }
 .container{
@@ -16,40 +16,47 @@
     color: #8e191c;
     margin-top: 50px;
 }
-.services-list{
+.Portfolio-list{
     display: grid;
     grid-template-columns: repeat(3,minmax(40px,.5fr));
     grid-gap: 40px;
     padding: 120px;
     margin-top: 20px;
 }
-.services-list div{
+.Portfolio-list div{
     background-color: #EF3D3A;
     padding: 50px;
     font-size: 13px;
     font-weight: 300;
     border-radius: 20px;
+    text-align: center; 
+    align-items: center;
     transition: backround 0.5s, transform 0.5s;
 }
-.services-list div h2{
+.Portfolio-list div h2{
     font-size: 25px;
     font-weight: 500;
-    margin-bottom: 15px;   
+    margin-top: 15px;
 }
-.services-list div a{
+.icon{
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+}
+.Portfolio-list div a{
     text-decoration: none;
     color: #fff;
     font-size: 12px;
     margin-top: 20px;
     display: inline-block;
 }
-.services-list div:hover{
+.Portfolio-list div:hover{
 
     background: #8e191c;
     transform:  translateY(-10px);
 }
 
-.services-list div a::after {
+.Portfolio-list div a::after {
     display: block;
         content: '';
     width: 0%;
@@ -60,10 +67,10 @@
     left: 0;
     transition: 0.4s;
 }
-.services-list div a {
+.Portfolio-list div a {
     position: relative;  
 }
 
-.services-list div a:hover::after{
+.Portfolio-list div a:hover::after{
     width: 100%;
 }
