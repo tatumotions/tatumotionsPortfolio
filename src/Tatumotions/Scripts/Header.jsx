@@ -7,13 +7,15 @@ function Header(){
         <div id ="Header">
             <div className="container">
                 <nav>
-                    <img className="TheLogo" src={tatumotionslogo} alt="logo"/>
+                    <a href="#">
+                        <img className="TheLogo" src={tatumotionslogo} alt="logo"/>
+                    </a>
                     <ul id="sidemenu">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Porfolio</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#Portfolio">Porfolio</a></li>
+                        <li><a href="#WhoAreWe">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
             </div>
