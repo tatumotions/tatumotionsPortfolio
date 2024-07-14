@@ -65,13 +65,14 @@ html{
     display: inline-block;
     background: #8e191c;
     outline: none;
+    transition: transform 0.5s;
 }
 .btn.btn2:active {
     transform: translateY(4px);
 }
-.btn.btn2 .fa-solid{
+/* .btn.btn2 .fa-solid{
     display:none;
-}
+} */
 .contact-right{
     flex-basis: 50%;
     margin-top: 200px;
@@ -100,16 +101,13 @@ form .btn2{
     color: white;
 }
 #msg{
+    padding: 14px;
     color: #3b962b;
     margin-top: -40px;
+    margin-left: 100px;
     display: block;
+    font-weight: 550;
 }
-.spinner {
-    width: 64px;
-    height: 64px;
-    border: 8px solid;
-    border-color: #3d5af1 transparent #3d5af1 transparent;
-    border-radius: 50%;
-    /* animation: spin-anim 1.2s linear infinite; */
+.loader{
+    display: inline-block;
 }
-
