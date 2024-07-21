@@ -27,8 +27,8 @@
 }
 .Portfolio-list div{
     background-color: #EF3D3A;
-    padding: 50px;
-    font-size: 13px;
+    padding: 30px;
+    font-size: 15px;
     font-weight: 300;
     border-radius: 20px;
     text-align: center; 
@@ -45,22 +45,34 @@
     justify-content: center;
     align-items: center;
 }
+.Portfolio-list div button{
+    border: 0;
+    border-radius: 5px;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 5px 20px;
+    font-size: 18px;
+    color: #EF3D3A;
+}
 .Portfolio-list div a{
     text-decoration: none;
-    color: #fff;
-    font-size: 12px;
-    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 520;
     display: inline-block;
+    cursor: pointer;
+    align-content: center;
+    transition: 0.2s;
 }
 .Portfolio-list div:hover{
-
     background: #8e191c;
     transform:  translateY(-10px);
 }
-
-.Portfolio-list div a::after {
+.Portfolio-list div button:active{
+    transform: translateY(4px);
+}
+/* .Portfolio-list div a::after {
     display: block;
-        content: '';
+    content: '';
     width: 0%;
     height: 2px;
     background: rgb(255, 255, 255);
@@ -68,11 +80,12 @@
     bottom: -5px;
     left: 0;
     transition: 0.4s;
-}
-.Portfolio-list div a {
+} */
+/* .Portfolio-list div a {
     position: relative;  
 }
 
 .Portfolio-list div a:hover::after{
     width: 100%;
-}
+    color: #8e191c;
+} */

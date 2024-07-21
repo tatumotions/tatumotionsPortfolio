@@ -26,6 +26,9 @@ nav{
     flex-wrap: wrap;
     background-color: #ffffff;
 }
+nav a{
+    cursor: pointer;
+}
 .TheLogo{
     width: 25px;
     height: 25px;
@@ -42,6 +45,7 @@ nav ul li a{
     font-size:  18px;
     font-weight: 600;
     position: relative;
+    
 }
 nav ul li a::after{
     content: '';

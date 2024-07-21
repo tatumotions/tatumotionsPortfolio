@@ -1,33 +1,24 @@
 /* eslint-disable react/jsx-no-undef */
 import './App.css';
-import Header from './Tatumotions/Scripts/Header';
-import Home from './Tatumotions/Scripts/Home'
-import Portfolio from './Tatumotions/Scripts/Portfolio';
-import Services from './Tatumotions/Scripts/Services';
-import WhoAreWe from './Tatumotions/Scripts/WhoAreWe';
-import Contactform from './Tatumotions/Scripts/Contactform';
-import Footer from './Tatumotions/Scripts/Footer';
+import HomePage from "./Tatumotions/Pages/HomePage";
+import AnimationPage from './Tatumotions/Pages/Animation';
+import GraphicDesignPage from './Tatumotions/Pages/GraphicDesign';
+import WebDesignPage from './Tatumotions/Pages/WebDesign';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    
-    <div className='App'>
-      <div className='Container'>
-        <div className='TheHeader'>
-          <Header />
-        </div>
-        <Home />
-        <Services/>
-        <Portfolio/>
-        <div id='WhoAreWe' className='whoarewe'>
-          <WhoAreWe/>
-        </div>
-        <Contactform/>
-        <div className='TheFooter'>
-          <Footer/>
-        </div>
-      </div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/'>
+          <Route index element={<HomePage/>}/>
+          <Route path="Animation" element={<AnimationPage/>}/>
+          <Route path="GraphicDesign" element={<GraphicDesignPage/>}/>
+          <Route path="WebDesign" element={<WebDesignPage/>}/>
+          <Route/>
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
