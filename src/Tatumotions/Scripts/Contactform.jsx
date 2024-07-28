@@ -8,6 +8,7 @@ import TiktokIcon from "../Images/SocialmediaIcons/tiktok.png";
 import XIcon from "../Images/SocialmediaIcons/twitter.png";
 import PhoneIcon from "../Images/SocialmediaIcons/viber.png";
 import EmailIcon from "../Images/SocialmediaIcons/telegram.png";
+import Footer from "../Scripts/Footer";
 
 const SERVICE_ID = "service_tw94h9g";
 const TEMPLATE_ID = "template_r171w3f";
@@ -68,6 +69,10 @@ function Contactform(){
                     </div>
                 </div>
             </div>
+            <div className="footer">
+                <Footer/>
+            </div>
+            
         </div>
     );
 }

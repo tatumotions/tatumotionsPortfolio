@@ -7,7 +7,6 @@
 
 #services{
     width: 100%;
-    height: 100vh;
 }
 .container{
     padding: 5px 5%;
@@ -19,7 +18,7 @@
 }
 .services-list{
     display: grid;
-    grid-template-columns: repeat(3,minmax(40px,.25fr));
+    grid-template-columns: repeat(auto-fit,minmax(250px, .25fr));
     grid-gap: 40px;
     padding: 100px;
     justify-content: center;
@@ -67,4 +66,28 @@
 
 .services-list div a:hover::after{
     width: 100%;
+}
+@media only screen and (max-width: 550px){
+    .sub-tittle{
+        font-size: 15px;
+    }
+    .services-list{
+        grid-template-columns: repeat(auto-fit,minmax(250px, .05fr));
+        padding: 20px;
+    }
+}
+@media only screen and (min-width: 700px){
+
+}
+@media only screen and (min-width: 900px){
+
+}
+@media only screen and (min-width: 1280px){
+
+}
+@media only screen and (min-width: 1440px){
+
+}
+@media only screen and (min-width: 1920px){
+    
 }

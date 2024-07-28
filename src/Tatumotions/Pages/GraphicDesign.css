@@ -17,3 +17,17 @@
     font-weight: 600;
     color: #8e191c;
 }
+.Img_carousel{
+    padding: 50px;
+}
+.Img_carousel div{
+    background-color: #EF3D3A;
+    padding: 20px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.Img_carousel div img{
+    width: 100%;
+    border-radius: 20px;
+}

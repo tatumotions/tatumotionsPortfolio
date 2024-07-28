@@ -34,13 +34,27 @@ nav a{
     height: 25px;
     float: inline-start;
 }
+.TheSideMenu{
+    display: none;
+    width: 25px;
+    height: 25px;
+    float: inline-end;
+    cursor: pointer;
+}
+.closebtn{
+    display: none;
+    width: 25px;
+    height: 25px;
+    float: inline-end;
+    cursor: pointer;
+}
 nav ul li{
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
 }
 nav ul li a{
-    color: rgb(142, 25, 28);
+    color: #8e191c;
     text-decoration: none;
     font-size:  18px;
     font-weight: 600;
@@ -91,3 +105,153 @@ nav ul li a:hover::after {
 .header-img img{
     width: 100%;
 }
+@media only screen and (max-width: 550px){
+    .header-text h1{
+        font-size: 21px;
+    }
+    .header-text h2{
+        font-size: 10px;
+    }
+    .header-text p{
+        font-size: 12px;
+    }
+    .TheSideMenu{
+        display: block;
+    }
+    .closebtn{
+        display: block;
+    }
+    .row{
+        margin-top: 10px;
+    }
+    .header-img{
+        flex-basis: 45%;
+    }
+    .header-text{
+        flex-basis: 45%;
+    }
+    nav ul{
+        background: #ef3d3a;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 150vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+        z-index: 2;
+        
+    }
+    nav ul li a{
+        color: #ffffff;
+    }
+    nav ul li a::after{
+        background: #ffffff;
+    }
+        
+}
+
+@media only screen and (min-width: 700px){
+    .header-img{
+        flex-basis: 35%;
+    }
+    .header-text{
+        flex-basis: 60%;
+    }
+    .header-text h1{
+        font-size: 55px;
+    }
+    .header-text h2{
+        font-size: 14px;
+    }
+    .header-text p{
+        font-size: 14px;
+    }
+    .row{
+        margin-top: 10px;
+    }
+}
+@media only screen and (min-width: 900px){
+    .header-text{
+        flex-basis: 60%;
+    }
+    .header-text h1{
+        font-size: 66px;
+    }
+    .header-text h2{
+        font-size: 16px;
+    }
+    .header-text p{
+        font-size: 16px;
+    }
+    .row{
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (min-width: 1280px){
+    .header-text{
+        flex-basis: 45%;
+    }
+    .header-img{
+        flex-basis:50%;
+    }
+    .header-text h1{
+        font-size: 72px;
+    }
+    .header-text h2{
+        font-size: 17px;
+    }
+    .header-text p{
+        font-size: 17px;
+    }
+    .row{
+        margin-top: 10px;
+    }
+}
+@media only screen and (min-width: 1440px){
+    .header-text{
+        flex-basis: 45%;
+    }
+    .header-img{
+        flex-basis: 50%;
+    }
+    .header-text h1{
+        font-size: 80px;
+    }
+    .header-text h2{
+        font-size: 19px;
+    }
+    .header-text p{
+        font-size: 20px;
+    }
+    .row{
+        margin-top: 10px;
+    }
+}
+@media only screen and (min-width: 1920px){
+    .header-text{
+        flex-basis: 40%;
+    }
+    .header-img{
+        flex-basis: 45%;
+    }
+    .header-text h1{
+        font-size: 98px;
+    }
+    .header-text h2{
+        font-size: 23px;
+    }
+    .header-text p{
+        font-size: 23px;
+    }
+    .row{
+        margin-top: 10px;
+    }
+}
+

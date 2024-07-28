@@ -70,15 +70,12 @@ html{
 .btn.btn2:active {
     transform: translateY(4px);
 }
-/* .btn.btn2 .fa-solid{
-    display:none;
-} */
 .contact-right{
-    flex-basis: 50%;
-    margin-top: 200px;
+    flex-basis: 60%;
 }
 .contact-right form{
     width: 100%;
+    margin-top: 100px;
 }
 form input,form textarea{
     width: 100%;
@@ -111,3 +108,19 @@ form .btn2{
 .loader{
     display: inline-block;
 }
+.footer{
+    position:relative;
+    top: 120px;
+}
+@media only screen and (max-width: 550px){
+    .sub-tittle{
+        font-size: 15px;
+    }
+    .contact-left, .contact-right{
+        flex-basis: 100%;
+    }
+    .footer{
+        top: 0px;
+    }
+}
+

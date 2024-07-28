@@ -1,7 +1,7 @@
 /* eslint-disable no-restricted-globals */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import "./Home.css";
-import tatumotionslogo from "../Images/Tatumotioons_logo.png"
+import tatumotionslogo from "../Images/Logo/Tatumotioons_logo.png"
 
 function Hero(){
     return (

@@ -1,7 +1,7 @@
 import "./Portfolio.css";
-import AnimationIcon from "../Images/animate.png";
-import GraphicDesignIcon from "../Images/vector.png";
-import WebDesignIcon from "../Images/user-experience.png";
+import AnimationIcon from "../Images/Icons/animate.png";
+import GraphicDesignIcon from "../Images/Icons/vector.png";
+import WebDesignIcon from "../Images/Icons/user-experience.png";
 import {useNavigate} from "react-router-dom";
 function Portfolio(){
     const navigate = useNavigate();
@@ -32,7 +32,7 @@ function Portfolio(){
                         <img className="icon" src={WebDesignIcon} alt="List_icon"/>  
                         <h2>Ux/UI & Web Design</h2>
                         <button>
-                            <a onClick ={() =>navigate("/WebDesign")}>Explore</a> 
+                            {<a /*onClick ={() =>navigate("/WebDesign")}*/>Explore</a>}
                         </button> 
                     </div>
                 </div>
