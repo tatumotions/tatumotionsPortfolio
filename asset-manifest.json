@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tatumotionsPortfolio/static/css/main.f71f129a.css",
-    "main.js": "/tatumotionsPortfolio/static/js/main.bbcc888d.js",
+    "main.js": "/tatumotionsPortfolio/static/js/main.0ca2d95b.js",
     "static/js/453.ea6ee488.chunk.js": "/tatumotionsPortfolio/static/js/453.ea6ee488.chunk.js",
     "static/media/Whoarewe.png": "/tatumotionsPortfolio/static/media/Whoarewe.0da797637aae24147ab0.png",
     "static/media/6.png": "/tatumotionsPortfolio/static/media/6.c3687eb4c1c12bda6d02.png",
@@ -34,11 +34,11 @@
     "static/media/revicons.woff": "/tatumotionsPortfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/tatumotionsPortfolio/index.html",
     "main.f71f129a.css.map": "/tatumotionsPortfolio/static/css/main.f71f129a.css.map",
-    "main.bbcc888d.js.map": "/tatumotionsPortfolio/static/js/main.bbcc888d.js.map",
+    "main.0ca2d95b.js.map": "/tatumotionsPortfolio/static/js/main.0ca2d95b.js.map",
     "453.ea6ee488.chunk.js.map": "/tatumotionsPortfolio/static/js/453.ea6ee488.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f71f129a.css",
-    "static/js/main.bbcc888d.js"
+    "static/js/main.0ca2d95b.js"
   ]
 }
