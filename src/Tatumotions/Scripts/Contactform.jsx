@@ -48,14 +48,14 @@ function Contactform(){
                 <div className="row">
                     <div className="contact-left">
                         <h1 className="sub-tittle">Contact Us</h1>
-                        <p><img src={EmailIcon}></img>tatumotions@gmail.com</p>
-                        <p><img src={PhoneIcon}></img>0123456789</p>
+                        <p><img src={EmailIcon} alt=""></img>tatumotions@gmail.com</p>
+                        <p><img src={PhoneIcon} alt=""></img>0123456789</p>
                         <div className="social-icons">
-                            <a href=""><img src={InstagramIcon}></img></a>
-                            <a href=""><img src={BehanceIcon}></img></a>g
-                            <a href=""><img src={LinkedinIcon}></img></a>
-                            <a href=""><img src={TiktokIcon}></img></a>
-                            <a href=""><img src={XIcon}></img></a>
+                            <a href=""><img src={InstagramIcon} alt=""></img></a>
+                            <a href=""><img src={BehanceIcon} alt=""></img></a>g
+                            <a href=""><img src={LinkedinIcon} alt=""></img></a>
+                            <a href=""><img src={TiktokIcon} alt=""></img></a>
+                            <a href=""><img src={XIcon} alt=""></img></a>
                         </div>
                     </div>
                     <div className="contact-right">

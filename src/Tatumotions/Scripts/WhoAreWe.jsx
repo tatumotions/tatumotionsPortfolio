@@ -1,14 +1,9 @@
 /* eslint-disable no-restricted-globals */
 import './WhoAreWe.css';
-import background from "../Images/Background/Whoarewe.png"
 
 function WhoAreWe(){
     return(
-        <div id ="whoarewe-Header" 
-        // style = {{backgroundImage:`url(${background})`,
-        //             backgroundRepeat: 'no-repeat',
-        //             backgroundSize:'cover'}}
-        >
+        <div id ="whoarewe-Header">
             <div className="container">
                 <h1 className="sub-tittle">Who Are We?</h1>
                 <div className="WhoAreWe-Content">
