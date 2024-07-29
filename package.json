@@ -1,7 +1,7 @@
 {
+  "homepage": "http://tatumotions.github.io/tatumotionsPortfolio",
   "name": "tatumotions",
   "version": "0.1.0",
-  "homepage": "http://tatumotions.github.io/tatumotionsPortfolio",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
