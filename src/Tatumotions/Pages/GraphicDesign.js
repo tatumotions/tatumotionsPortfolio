@@ -13,6 +13,7 @@ import img7 from "../Images/Carousel/7.png";
 import img8 from "../Images/Carousel/8.png";
 import img9 from "../Images/Carousel/9.png";
 import img10 from "../Images/Carousel/10.png";
+import Footer from '../Scripts/Footer';
 
 
 function GraphicDesign  ()  {
@@ -35,13 +36,13 @@ function GraphicDesign  ()  {
             breakpoint: { max: 1024, min: 464 },
             items: 2,
             slidesToSlide: 2 ,
-            partialVisibilityGutter: 30
+            partialVisibilityGutter: 20
         },
         mobile: {
             breakpoint: { max: 464, min: 0 },
             items: 1,
             slidesToSlide: 1 ,
-            partialVisibilityGutter: 30
+            partialVisibilityGutter: 10
         }
     };
 
@@ -92,6 +93,7 @@ function GraphicDesign  ()  {
                     </Carousel>
                 </div>
             </div> 
+            <Footer/>
         </div>
     )
 }

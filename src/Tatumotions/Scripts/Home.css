@@ -138,14 +138,14 @@ nav ul li a:hover::after {
         width: 200px;
         height: 150vh;
         padding-top: 50px;
-        z-index: 2;
+        z-index: 200000;
         transition: right 0.5s;
     }
     nav ul li{
+        
         display: block;
         margin: 25px;
-        z-index: 2;
-        
+        z-index: 200000;
     }
     nav ul li a{
         color: #ffffff;

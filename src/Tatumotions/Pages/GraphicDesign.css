@@ -7,7 +7,6 @@
 
 #GraphicDesign{
     width: 100%;
-    height: 100vh;
 }
 .container{
     padding: 5px 5%;
@@ -30,4 +29,33 @@
 .Img_carousel div img{
     width: 100%;
     border-radius: 20px;
+}
+@media only screen and (max-width: 550px){
+    .Img_carousel{
+        padding: 25px;
+        justify-content: center;
+    }
+    .Img_carousel div{
+        padding: 10px;
+        border-radius: 15px;
+    }
+    .Img_carousel div img{
+        width: 100%;
+        border-radius: 15px;
+    }
+}
+@media only screen and (min-width: 551px){
+
+}
+@media only screen and (min-width: 700px){
+
+}
+
+@media only screen and (min-width: 900px){
+
+}
+@media only screen and (min-width: 1280px){
+
+}
+@media only screen and (min-width: 1440px){
 }
