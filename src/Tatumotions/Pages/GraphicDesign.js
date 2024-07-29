@@ -79,16 +79,16 @@ function GraphicDesign  ()  {
                         slidesToSlide={2}
                         swipeable
                         responsive = {responsive}>
-                            <div><img className="TheImg" src ={img1}/></div>
-                            <div><img className="TheImg" src ={img2}/></div>
-                            <div><img className="TheImg" src ={img3}/></div>
-                            <div><img className="TheImg" src ={img4}/></div>
-                            <div><img className="TheImg" src ={img5}/></div>
-                            <div><img className="TheImg" src ={img6}/></div>
-                            <div><img className="TheImg" src ={img7}/></div>
-                            <div><img className="TheImg" src ={img8}/></div>
-                            <div><img className="TheImg" src ={img9}/></div>
-                            <div><img className="TheImg" src ={img10}/></div>
+                            <div><img className="TheImg" src ={img1} alt=''/></div>
+                            <div><img className="TheImg" src ={img2} alt=''/></div>
+                            <div><img className="TheImg" src ={img3} alt=''/></div>
+                            <div><img className="TheImg" src ={img4} alt=''/></div>
+                            <div><img className="TheImg" src ={img5} alt=''/></div>
+                            <div><img className="TheImg" src ={img6} alt=''/></div>
+                            <div><img className="TheImg" src ={img7} alt=''/></div>
+                            <div><img className="TheImg" src ={img8} alt=''/></div>
+                            <div><img className="TheImg" src ={img9} alt=''/></div>
+                            <div><img className="TheImg" src ={img10} alt=''/></div>
                     </Carousel>
                 </div>
             </div> 
