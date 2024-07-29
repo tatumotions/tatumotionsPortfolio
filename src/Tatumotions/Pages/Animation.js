@@ -30,6 +30,7 @@ function Animation  () {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     );
 }
