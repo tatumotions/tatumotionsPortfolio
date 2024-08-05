@@ -107,13 +107,13 @@ nav ul li a:hover::after {
 }
 @media only screen and (max-width: 550px){
     .header-text h1{
-        font-size: 21px;
+        font-size: 60px;
     }
     .header-text h2{
-        font-size: 10px;
+        font-size: 16px;
     }
     .header-text p{
-        font-size: 12px;
+        font-size: 16px;
     }
     .TheSideMenu{
         display: block;
@@ -125,10 +125,10 @@ nav ul li a:hover::after {
         margin-top: 10px;
     }
     .header-img{
-        flex-basis: 45%;
+        flex-basis: 100%;
     }
     .header-text{
-        flex-basis: 45%;
+        flex-basis: 100%;
     }
     nav ul{
         background: #ef3d3a;
@@ -158,22 +158,39 @@ nav ul li a:hover::after {
 
 @media only screen and (min-width: 700px){
     .header-img{
-        flex-basis: 35%;
+        flex-basis: 100%;
     }
     .header-text{
-        flex-basis: 60%;
+        flex-basis: 100%;
     }
     .header-text h1{
-        font-size: 55px;
+        font-size: 94px;
     }
     .header-text h2{
-        font-size: 14px;
+        font-size: 30px;
     }
     .header-text p{
-        font-size: 14px;
+        font-size: 30px;
     }
     .row{
         margin-top: 10px;
+    }
+}
+@media only screen and (min-width: 801px){
+    .header-img{
+        flex-basis: 100%;
+    }
+    .header-text{
+        flex-basis: 100%;
+    }
+    .header-text h1{
+        font-size: 94px;
+    }
+    .header-text h2{
+        font-size: 30px;
+    }
+    .header-text p{
+        font-size: 30px;
     }
 }
 @media only screen and (min-width: 900px){
@@ -181,16 +198,16 @@ nav ul li a:hover::after {
         flex-basis: 60%;
     }
     .header-text h1{
-        font-size: 66px;
+        font-size: 94px;
     }
     .header-text h2{
-        font-size: 16px;
+        font-size: 30px;
     }
     .header-text p{
         font-size: 16px;
     }
-    .row{
-        margin-top: 10px;
+    .header-text p{
+        font-size: 30px;
     }
 }
 

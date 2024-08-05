@@ -50,24 +50,37 @@
         font-size: 16px;
     }
 }
-@media only screen and (min-width: 700px){
+@media only screen and (min-width: 701px){
     #whoarewe-Header{
         height: 100vh;
     }
     .WhoAreWe-Content p{
-        font-size: 18px;
+        font-size: 26px;
     }
 }
 
-@media only screen and (min-width: 900px){
+@media only screen and (min-width: 801px){
     #whoarewe-Header{
         height: 100vh;
+    }
+    .WhoAreWe-Content p{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 901px){
+    #whoarewe-Header{
+        height: 100vh;
+    }
+    .WhoAreWe-Content p{
+        font-size: 36px;
     }
 }
 @media only screen and (min-width: 1280px){
     #whoarewe-Header{
         height: 100vh;
     }
+
 }
 @media only screen and (min-width: 1440px){
     #whoarewe-Header{
